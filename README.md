@@ -20,3 +20,10 @@ pa_volume
 will list all known clients and their rememebered volume level for each
 channel.
 
+### Fuzzy script
+
+```bash
+pa_vol.sh firefox 20
+```
+will set the volume of all clients with name "firefox" in them (by `grep -i`) to
+20%.
